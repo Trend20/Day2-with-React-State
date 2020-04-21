@@ -13,7 +13,7 @@ class State extends Component{
         return(
             <div className="state">
                 <p>Today is {this.state.date.toLocaleDateString()}</p>
-                <Lifecycle />
+                {/* <Lifecycle /> */}
                 <Name />
             </div>
         )
